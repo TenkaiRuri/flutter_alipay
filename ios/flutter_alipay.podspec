@@ -17,6 +17,8 @@ A Flutter Alipay plugin, that supports using alipay sdk in Flutter.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'AliPay'
+  s.static_framework = true
+  s.requires_arc  = true
   
   s.ios.deployment_target = '8.0'
 end
